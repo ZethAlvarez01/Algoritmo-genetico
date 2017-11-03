@@ -1,0 +1,2 @@
+cd desktop/Metodos (Algoritmo Genetico)
+gcc -o pr main.cpp Binario.cpp funcionObjetivo.cpp Restricciones.cpp imprimir.cpp Bits.cpp vectores.cpp valorVariables.cpp mutacion.cpp -lstdc++

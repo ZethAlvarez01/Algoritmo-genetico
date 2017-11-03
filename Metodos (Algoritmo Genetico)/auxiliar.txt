@@ -1,0 +1,98 @@
+		//Nueva tabla N Vectores
+		/*
+		int control[individuos];
+		int aux4=0;
+
+		for(int i=0;i<individuos;i++){
+			control[i]=0;
+		}	
+
+		cout<<endl<<endl;
+		for(int i=0;i<individuos;i++){
+			aux4=(tabla[i][var+4])-1;
+			control[aux4]=control[aux4]+1;
+		}
+	
+		for(int i=0;i<individuos;i++){
+			cout<<control[i]<<endl;
+		}
+
+		int h=0;
+		int sobreviviente[individuos][2];
+		int mayor=0,indiceVector=0;
+		do{
+		mayor=0,indiceVector=0;
+
+			for(int i=0;i<individuos;i++){
+				if(control[i]>mayor){
+					mayor=control[i];
+					indiceVector=i;
+					control[i]=0;
+				}
+			}
+		sobreviviente[h][0]=mayor;
+		sobreviviente[h][1]=indiceVector;
+		
+		h++;
+		}while(h<individuos);
+
+		cout<<endl<<endl<<"Sobrevivientes: "<<endl;
+		for(int i=0;i<individuos;i++){
+			for(int j=0;j<2;j++){
+				cout<<sobreviviente[i][j];
+			}
+			cout<<endl;
+		}
+
+		int aux5;
+
+		for(int i=0;i<individuos;i++){
+			if(sobreviviente[i][0]==0){
+				//Mutar restantes
+				//cout<<i;
+			}else{
+				aux5=sobreviviente[i][1];
+				for(int j=0;j<aux2;j++){
+					indivVector[i][j]=indivVector[aux5][j];
+				}
+			}
+		}
+		
+		int minimo,maximo;
+		if(min==0){
+			cout<<endl<<"Funcion minimizada"<<endl;
+			minimo=sobreviviente[0][1];
+			maximo=sobreviviente[individuos-1][1];
+			switch(var-1){
+				case 0:
+					cout<<"Minimo: "<<endl<<"\tX="<<tabla[minimo][0]<<endl;
+				break;
+				case 1:
+					cout<<"Minimo: "<<endl<<"\tX="<<tabla[minimo][0]<<endl<<"\tY="<<tabla[minimo][1]<<endl;
+				break;
+				case 2:
+					cout<<"Minimo: "<<endl<<"\tX="<<tabla[minimo][0]<<endl<<"\tY="<<tabla[minimo][1]<<endl<<"\tZ="<<tabla[minimo][2]<<endl;
+				break;
+				case 3:
+					cout<<"Minimo: "<<endl<<"\tX="<<tabla[minimo][0]<<endl<<"\tY="<<tabla[minimo][1]<<endl<<"\tZ="<<tabla[minimo][2]<<endl<<"\tW="<<tabla[minimo][3]<<endl;
+				break;
+			}
+		}else{
+			cout<<endl<<"Funcion maximizada"<<endl;
+			minimo=sobreviviente[0][1];
+			switch(var-1){
+				case 0:
+					cout<<"Maximo: "<<endl<<"\tX="<<tabla[maximo][0]<<endl;
+				break;
+				case 1:
+					cout<<"Maximo: "<<endl<<"\tX="<<tabla[maximo][0]<<endl<<"\tY="<<tabla[maximo][1]<<endl;
+				break;
+				case 2:
+					cout<<"Maximo: "<<endl<<"\tX="<<tabla[maximo][0]<<endl<<"\tY="<<tabla[maximo][1]<<endl<<"\tZ="<<tabla[maximo][2]<<endl;
+				break;
+				case 3:
+					cout<<"Maximo: "<<endl<<"\tX="<<tabla[maximo][0]<<endl<<"\tY="<<tabla[maximo][1]<<endl<<"\tZ="<<tabla[maximo][2]<<endl<<"\tW="<<tabla[maximo][3]<<endl;
+				break;
+			}
+		}
+		*/
